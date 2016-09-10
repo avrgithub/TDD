@@ -1,9 +1,22 @@
-using Sytem.IO;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-//adding comments
-public void main()
+namespace ConsoleApplication1
 {
-    Console.Writeline("Hello World");
-    return;
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            System.Console.WriteLine("Hello World");
 
+            System.Console.ReadKey();
+
+            return;
+        }
+    }
 }
+
+//Final tested version
